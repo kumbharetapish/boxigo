@@ -1,11 +1,12 @@
 .roomBox {
+  color: darkblue;
   width: 100px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px #000000;
-  background-color: rgb(228, 228, 228);
+  border: solid 1px #7777775c;
+  background-color: rgba(87, 87, 180, 0.15);
   margin: 5px;
   flex-direction: column;
   border-radius: 5px;
@@ -14,9 +15,10 @@
 .roomBox > p {
   text-transform: capitalize;
   text-align: center;
+  color: darkblue;
 }
 
 .name {
-  color: #000;
+  color: darkblue;
   font-weight: 500;
 }

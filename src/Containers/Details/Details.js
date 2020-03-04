@@ -141,7 +141,7 @@ class Details extends Component {
       </div>
     );
     return (
-      <div className="app">
+      <div className="App">
         <h2> Order Details </h2>
         {card}
         <div className={DetailsStyle.roomsSectionWrapper}>
@@ -150,11 +150,11 @@ class Details extends Component {
           {kitchen}
           {others}
         </div>
-
-        <Link className={DetailsStyle.backBtn} to="/">
-          {" "}
-          Back to Home{" "}
-        </Link>
+        <div className={DetailsStyle.btnWrapper}>
+          <Link className={DetailsStyle.backBtn} to="/">
+            {" Back to Home "}
+          </Link>
+        </div>
       </div>
     );
   }
