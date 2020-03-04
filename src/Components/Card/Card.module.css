@@ -1,0 +1,74 @@
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #000;
+  padding: 10px 5px;
+  margin: 10px 8px;
+  flex-direction: column;
+}
+.cardTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.cardBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px darkgray;
+  height: 20px;
+}
+.cardBottom p {
+  font-size: 13px;
+  margin: 0;
+  color: blue;
+  padding: 0;
+  font-weight: 500;
+}
+
+.cardBottom p > b {
+  color: #808080;
+}
+.homeWrapper,
+.StatusWrapper {
+  width: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.homeWrapper i {
+  font-size: 50px;
+  color: #808080;
+}
+
+.homeWrapper p {
+  width: 50px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.directionWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  width: 60%;
+}
+
+.add {
+  width: 150px;
+}
+
+.add p {
+color: #808080;
+}
+
+.buttonNone {
+  display: none;
+}

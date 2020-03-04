@@ -1,0 +1,22 @@
+.roomBox {
+  width: 100px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #000000;
+  background-color: rgb(228, 228, 228);
+  margin: 5px;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.roomBox > p {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.name {
+  color: #000;
+  font-weight: 500;
+}

@@ -1,0 +1,19 @@
+.buttonNone {
+  display: none;
+}
+.buttonShow {
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(87, 87, 180);
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.buttonShow:hover{
+    background-color: rgb(53, 53, 102);
+}
