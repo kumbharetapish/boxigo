@@ -1,9 +1,12 @@
 import React from "react";
-import roomStyle from "./Room.module.css"
+import roomStyle from "./Room.module.css";
 const Room = props => {
   return (
-    <div className ={roomStyle.roomBox}>
-      <p className={roomStyle.name}>{props.count}</p>
+    <div className={roomStyle.roomBox}>
+      <p className={roomStyle.name}>
+        {" "}
+        {props.count === undefined ? 0 : props.count}
+      </p>
       <p>{props.name} </p>
     </div>
   );
